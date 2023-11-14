@@ -1,29 +1,36 @@
-var swiper = new Swiper(".slide-content", {
-    slidesPerView: 3,
-    spaceBetween: 25,
-    loop: true,
-    centerSlide: 'true',
-    fade: 'true',
-    grabCursor: 'true',
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      dynamicBullets: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-
-    breakpoints:{
-        0: {
-            slidesPerView: 1,
-        },
-        520: {
-            slidesPerView: 2,
-        },
-        950: {
-            slidesPerView: 4,
-        },
-    },
+$(document).ready(function() {
+  $('.card-slider').slick({
+    dots: false,
+    arrows: true,
+    slidesToShow: 4,
+    infinite: false,
+    prevArrow: '<span class="prev_icon"><i class="fa-solid fa-angle-left"></i></span>',
+    nextArrow: '<span class="next_icon"><i class="fa-solid fa-angle-right"></i></span>',
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
   });
+});
