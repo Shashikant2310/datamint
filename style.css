@@ -272,14 +272,6 @@ button {
     margin: 50px 0;
 }
 
-@media (max-width: 1000px) {
-    #our-alumni .banner {
-        width: 60%;
-        height: 300px;
-        background-image: url('https://datamites.com/resource/images/partners/partners-logos-m.jpg');
-
-    }
-}
 
 /* card slider */
 
@@ -287,6 +279,7 @@ button {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 30px;
+    padding-bottom: 10px;
     position: relative;
 
     @media screen and (max-width: 1024px) {
@@ -351,6 +344,10 @@ button {
     background-color: var(--white);
 }
 
+.cardlist4 {
+    background-color: var(--white);
+}
+
 .prev_icon {
     position: absolute;
     top: 40%;
@@ -379,7 +376,8 @@ button {
 
 .card-slider .card {
     height: 360px;
-    border: none;
+    border: 0.5px solid rgb(235, 235, 235);
+    box-shadow: 0 10px 30px 0 rgba(50, 50, 50, .07);
 }
 
 .card-slider1 .card-top {
@@ -396,6 +394,10 @@ button {
 
 .card-slider4 .card-top {
     background: linear-gradient(to right, #73bafc, #9fe7e3);
+}
+
+.card-slider5 .card-top {
+    background: linear-gradient(to right, #0fbeda, #6ccddc);
 }
 
 .card-top {
@@ -482,6 +484,17 @@ button {
 
 
 /* online training schedule */
+.schedules {
+    background-color: var(--light);
+}
+
+.shecdule_List {
+    padding: 10px 20px;
+    margin: 25px 0;
+    border: 1px solid rgb(221, 220, 220);
+    background-color: var(--white);
+}
+
 .shecdule_icons {
     display: flex;
     align-items: center;
@@ -526,4 +539,60 @@ button {
 .shecdule_details p {
     font-size: 0.9rem;
     margin: 0;
+}
+
+
+.shecdule_enquir {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.shecdule_enquir .priceList {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.priceList .old-price {
+    font-size: 0.97rem;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: var(--dark);
+    margin: 0;
+}
+
+.priceList .old-price::before {
+    content: '₹ ';
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--dark);
+
+}
+
+.priceList .new-price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--orange);
+    margin: 0;
+}
+
+.priceList .new-price::before {
+    content: '₹ ';
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--orange);
+}
+
+.priceList span {
+    font-size: 0.8rem;
+    color: var(--dark);
+}
+
+.shecdule_enquir .enquire-btn {
+    font-size: 1rem;
+    padding: 6px 15px;
+    border-radius: none;
+    outline: none;
+    background-color: var(--orange);
 }

@@ -14,21 +14,22 @@ $(document).ready(function() {
         }
       },
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 3
         }
       },
       {
-        breakpoint: 800,
+        breakpoint: 1000,
         settings: {
-          slidesToShow: 2
+          slidesToShow: 2,
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 750,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 1,
+          arrows: false
         }
       }
     ]
