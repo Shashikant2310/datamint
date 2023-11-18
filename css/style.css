@@ -84,8 +84,14 @@ body {
     font-weight: 400;
 }
 
+.navbar-collapse {
+    background-color: white;
+}
+
+
 .dropdown-menu {
     border-radius: 0px;
+    background-color: white;
 }
 
 .nav-item .dropdown-item {
@@ -107,9 +113,7 @@ body {
 #hero {
     height: 70vh;
     color: var(--white);
-    background-image: url('https://datamites.com/resource/images/final/home3.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: #4F5DC3;
 }
 
 #hero h1 {
@@ -122,7 +126,7 @@ body {
     display: flex;
 }
 
-input {
+.input-container input {
     width: 100%;
     padding: 10px 8px;
     font-size: 16px;
@@ -130,7 +134,7 @@ input {
     outline: none;
 }
 
-button {
+.input-container button {
     padding: 8px 15px;
     background-color: var(--blue);
     color: var(--white);
@@ -138,6 +142,9 @@ button {
     cursor: pointer;
 }
 
+.hero-list {
+    padding: none;
+}
 
 .hero-list li {
     list-style: none;
@@ -394,6 +401,14 @@ button {
     background-color: var(--white);
 }
 
+.cardlist6 {
+    background-color: var(--light);
+}
+
+.cardlist7 {
+    background-color: var(--light);
+}
+
 .prev_icon {
     position: absolute;
     top: 40%;
@@ -428,22 +443,36 @@ button {
 
 .card-slider1 .card-top {
     background: linear-gradient(to right, #73bafc, #9fe7e3);
+    color: var(--white);
+
 }
 
 .card-slider2 .card-top {
     background: linear-gradient(to right, #f78dbe, #daabef);
+    color: var(--white);
+
 }
 
 .card-slider3 .card-top {
     background: linear-gradient(to right, #f78dbe, #daabef);
+    color: var(--white);
+
 }
 
 .card-slider4 .card-top {
     background: linear-gradient(to right, #73bafc, #9fe7e3);
+    color: var(--white);
+
 }
 
 .card-slider5 .card-top {
     background: linear-gradient(to right, #0fbeda, #6ccddc);
+    color: var(--white);
+
+}
+
+.card-slider5 .card-top {
+    color: white;
 }
 
 .card-top {
@@ -454,7 +483,6 @@ button {
     align-items: center;
     padding-top: 10px;
     border-bottom-right-radius: 100px;
-    color: var(--white);
 }
 
 .card-top h4 {
@@ -639,10 +667,13 @@ button {
 .shecdule_enquir .enquire-btn {
     font-size: 1rem;
     padding: 6px 15px;
+    border: none;
     border-radius: none;
     outline: none;
+    color: white;
     background-color: var(--orange);
 }
+
 
 .footer {
     background-color: #1A1A1A;

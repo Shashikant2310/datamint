@@ -1,0 +1,241 @@
+#hero-taining {
+    height: 370px;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+.hero-taining-top h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.hero-taining-top i {
+    font-size: 1rem;
+    color: var(--orange);
+}
+
+.hero-taining-top span {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.hero-taining-top ul li {
+    font-size: 0.93rem;
+    font-weight: 300;
+    line-height: 30px;
+    margin-left: -10px;
+}
+
+.hero-taining-down h4 {
+    position: relative;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero-taining-down {
+    padding: 10px 0;
+    align-items: center;
+}
+
+.hero-taining-down h4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 60%;
+    margin: 10px auto;
+    width: 4%;
+    margin-left: 10px;
+    height: 3px;
+    background: #ff8500;
+}
+
+.hero-taining-down img {
+    width: 250px;
+}
+
+.course-syllabus h5 {
+    font-size: 1rem;
+    height: fit-content;
+    width: fit-content;
+}
+
+.course-syllabus p {
+    font-size: 1.8rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.hero-taining-down .price-list p:nth-child(1) {
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+.hero-taining-down .price-list p:nth-child(2) {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--orange);
+    margin: 0;
+}
+
+.hero-taining-down .price-list p:nth-child(3) {
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.hero-taining-down .price-list p:nth-child(4) {
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.hero-taining-down .enquir a {
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    background-color: #213769;
+    padding: 8px 15px;
+}
+
+
+/* mentores */
+
+.mentore h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.mentore h3 i {
+    font-size: 1.6rem;
+}
+
+.mentore p {
+    font-size: 0.9rem;
+    word-spacing: 3px;
+    color: rgb(78, 77, 77);
+}
+
+/* pricing table */
+
+.price_cards .card1 {
+    border: none;
+    height: 100%;
+    border-radius: none;
+}
+
+.price_cards .card1 h4 {
+    font-size: 2rem;
+    color: #127bc0;
+    padding-top: 30px;
+}
+
+.card-header .price-list p:nth-child(1) i {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.card-header .price-list p:nth-child(1) span {
+    font-size: 1.2rem;
+    text-decoration: line-through;
+}
+
+.card-header .price-list p:nth-child(2) i {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ff8500;
+}
+
+.card-header .price-list p:nth-child(2) span {
+    font-size: 1.4rem;
+    color: #ff8500;
+    font-weight: 500;
+}
+
+
+.price_cards .card1 .card-body li i {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ff8500;
+    padding-right: 5px;
+}
+
+.price_cards .card1 .card-body li {
+    list-style: none;
+    text-indent: -1.5rem;
+    margin-left: 10px;
+    padding-left: 2rem;
+    color: #6b6a6a;
+    padding-bottom: 5px;
+}
+
+.price_cards .enquire-btn {
+    font-size: 1rem;
+    padding: 6px 15px;
+    border: none;
+    outline: none;
+    background-color: #ff8500;
+    color: white;
+}
+
+.card-header2 {
+    position: relative;
+}
+
+.card-header2 img {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 100px;
+    height: 30px;
+
+}
+
+.skillup_banner h2 {
+    font-size: 1.9rem;
+    color: white;
+}
+
+.skillup_banner .enquire-btn {
+    font-size: 1.4rem;
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    background-color: #ff8500;
+    color: white;
+}
+
+.certificate_frame h4 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #111;
+}
+
+.certificate_frame p {
+    color: rgb(54, 54, 54);
+}
+
+.certificate-small {
+    display: none;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit;
+}
+
+button.accordion-button:focus {
+    box-shadow: inherit;
+}
+
+.review_video {
+    height: 300px;
+}
